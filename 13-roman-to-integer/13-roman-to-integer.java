@@ -18,6 +18,7 @@ class Solution {
             }
             if (result <= this.convert(array[i])) {
                 result += this.convert(array[i]);
+                continue;
             }
         }
        
