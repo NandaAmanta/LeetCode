@@ -13,7 +13,7 @@ class Solution {
                 result += this.convert(array[i]);
                 continue;
             }
- 
+
 
             if (result > this.convert(array[i])) {
                 result -= this.convert(array[i]);
@@ -22,7 +22,6 @@ class Solution {
 
             if (result <= this.convert(array[i])) {
                 result += this.convert(array[i]);
-                continue;
             }
         }
        
