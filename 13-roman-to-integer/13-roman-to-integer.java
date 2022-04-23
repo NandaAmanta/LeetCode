@@ -18,11 +18,14 @@ class Solution {
             }
             if (result <= this.convert(array[i])) {
                 result += this.convert(array[i]);
+                
             }
         }
        
         return result;    
    }
+
+   
 
     private int convert(char c) {
         switch (c) {
