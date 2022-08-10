@@ -5,7 +5,6 @@ class Solution {
         if (currentElement == ')' || currentElement == '}' || currentElement == ']' || s.length() % 2 == 1) {
             return false;
         }
-        
         for (int i = 1; i < s.length(); i++) {
             char element = s.charAt(i);
             if (sb.length() > 0) {
