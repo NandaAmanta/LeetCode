@@ -16,6 +16,7 @@ class Solution {
                 }
             }
             sb.append(element);
+            
         }
         return sb.length() == 0;
     }
