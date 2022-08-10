@@ -13,7 +13,7 @@ class Solution {
             if (element.charAt(0) != longestPrefix.charAt(0)) {
                 return "";
             }
-if (element.length() < longestPrefix.length()) {
+            if (element.length() < longestPrefix.length()) {
                 longestPrefix = longestPrefix.substring(0, element.length());
                 
             }
