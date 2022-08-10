@@ -15,10 +15,8 @@ class Solution {
                     continue;
                 }
             }
-            sb.append(element);
-            
+            sb.append(element);   
         }
-        
         return sb.length() == 0;
     }
 }
