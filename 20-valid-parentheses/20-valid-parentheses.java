@@ -15,7 +15,7 @@ class Solution {
                     sb.deleteCharAt(sb.length() - 1);
                     continue;
                 }
-
+ 
             }
  
             sb.append(element);
